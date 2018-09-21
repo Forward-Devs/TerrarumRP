@@ -31,8 +31,11 @@ main()
 #include "../vendor/framework/config.p"
 /* Load All Models */
 #include "../vendor/framework/models.p"
+
 /* MYSQL */
 #include "../vendor/framework/schema.p"
+/* Load Helpers */
+#include "../vendor/framework/helpers.p"
 /* Auto Load Un archivo para cargar componentes */
 #include "../autoload.p" 
 
